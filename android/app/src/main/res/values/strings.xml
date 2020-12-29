@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeBeep</string>
+    <string name="default_notification_channel_id">@bebeep-default-channel-id@1234</string>
+</resources>

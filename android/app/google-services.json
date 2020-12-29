@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "385909779969",
+    "firebase_url": "https://bebeep-3418d.firebaseio.com",
+    "project_id": "bebeep-3418d",
+    "storage_bucket": "bebeep-3418d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385909779969:android:4092e8cb3696d07a",
+        "android_client_info": {
+          "package_name": "com.bebeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385909779969-dqmgf72scc3ft8e4511gfvnhsas54npm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bebeep",
+            "certificate_hash": "84e641d623342297a78dd0f4849612d88047ee01"
+          }
+        },
+        {
+          "client_id": "385909779969-qlt2khhbmi5h54af60e6vushnjnto5tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bebeep",
+            "certificate_hash": "4ddb3ebff30c13425839487eef69fc43b1fb0176"
+          }
+        },
+        {
+          "client_id": "385909779969-8efrscvsu5rtkuc6uisrf5u7r85oe6f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bebeep",
+            "certificate_hash": "f5638e9df48f2ab9a8a2190e4cae1502b5109eea"
+          }
+        },
+        {
+          "client_id": "385909779969-5tn9vjchfiqqnh4q827o09ajl984u98e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bebeep",
+            "certificate_hash": "d19fbb461c2e67b5f492f200aa2107b9fdf708da"
+          }
+        },
+        {
+          "client_id": "385909779969-pabcpcdbq91d57vno19e0i3p6cvauu3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpDW-FghNa1NPyfC7lvgGEOllzW27m9V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385909779969-pabcpcdbq91d57vno19e0i3p6cvauu3o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "385909779969-4ancd824mh1mpv1v32fbevubhpdud1qa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bebeep"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

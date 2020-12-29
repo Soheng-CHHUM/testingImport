@@ -1,0 +1,79 @@
+{
+  "_from": "rn-swipeable-panel",
+  "_id": "rn-swipeable-panel@1.0.15",
+  "_inBundle": false,
+  "_integrity": "sha512-UzZYXWQGW9T0nu2hv5jFOisEXjUFvv2inNalGPRZJ1e0vMGhr9ZZiZLJv05Q5y1KJUkxmPScQpwxeX+OZdFuCA==",
+  "_location": "/rn-swipeable-panel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rn-swipeable-panel",
+    "name": "rn-swipeable-panel",
+    "escapedName": "rn-swipeable-panel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rn-swipeable-panel/-/rn-swipeable-panel-1.0.15.tgz",
+  "_shasum": "4646ecfc36f0064f83af7c1af5a48081a69cd8c5",
+  "_spec": "rn-swipeable-panel",
+  "_where": "/Users/macbook/Documents/Company Project/Bikay/bebeep/news_clone/radio-screen-v2",
+  "author": {
+    "name": "Enes Ozturk"
+  },
+  "bugs": {
+    "url": "https://github.com/enesozturk/rn-swipeable-panel/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "enesozturk",
+      "email": "enesozturk.d@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "deprecated": false,
+  "description": "Swipeable panel for react native",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.54.1"
+  },
+  "files": [
+    "components"
+  ],
+  "homepage": "https://github.com/enesozturk/rn-swipeable-panel",
+  "keywords": [
+    "react",
+    "react native",
+    "react-native-component",
+    "mobile",
+    "ios",
+    "android",
+    "swipeable",
+    "panel",
+    "swipeable-panel",
+    "swipe-up",
+    "swipe-down",
+    "bottom",
+    "bottom-panel",
+    "bottom-up",
+    "bottom-up-panel"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "rn-swipeable-panel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enesozturk/rn-swipeable-panel.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.15"
+}

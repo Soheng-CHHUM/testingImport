@@ -1,0 +1,55 @@
+{
+    "record": {
+        "message_max_duration": "Durée maximale du message %{max_duration} sec.",
+        "message_info": "Les messages dans le Chat Privé sont ~ automatiquement effacés 24 heures ~ après l'écoute. Les messages non écoutés sont effacés après 1 semaine.",
+        "sorry": "Désolé!",
+        "message_too_long": "Votre message est trop long!",
+        "new_record": "Enregistrez un nouveau message."
+    },
+    "success": {
+        "congrats": "Bravo!",
+        "buy_product": "La transaction s'est bien effectuée. ~{/n} Voici votre numéro de reçu: %{num_transaction} ~{/n}Merci pour votre confiance",
+        "payment": "Vous êtes en version premium !~{/n} Retrouvez vos groupes d'intérêt et vos amis"
+    },
+    "errors": {
+        "error": "Erreur",
+        "buy_product": "Une erreur a eu lieu durant le paiement, veuillez vérifier votre compte"
+    },
+    "find_friends": {
+        "title": "Retrouvez vos amis",
+        "subtitle": "Retrouvez vos amis qui utilisent déjà ~{/n}%{app_name}"
+    },
+    "find_contacts": {
+        "title": "Invitez vos contacts",
+        "subtitle": "Partagez %{app_name} avec votre répertoire téléphonique"
+    },
+    "find_group": {
+        "title": "Rejoignez les groupes",
+        "subtitle": "Rejoignez des groupes autour de vous"
+    },
+    "common": {
+        "create_group": "Créer groupe",
+        "done": "C'est fait!",
+        "invited": "Invité",
+        "invite": "Inviter",
+        "friends": "Ami",
+        "premium": "Premium",
+        "cancel": "Annuler",
+        "my_profile": "Mon profil",
+        "public": "Public",
+        "private": "Privé",
+        "messages": {
+            "one": "Message",
+            "other": "Messages"
+        },
+        "result": {
+            "one": "Résultat",
+            "other": "Résultats"
+        },
+        "contact": {
+            "one": "Contact",
+            "other": "Contacts"
+        },
+        "welcome": "Bienvenue"
+    }
+}

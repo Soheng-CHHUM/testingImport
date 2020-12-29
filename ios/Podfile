@@ -1,0 +1,74 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+target 'bebeep' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  # Pods for bebeep
+  pod 'Fabric', '~> 1.10.2'
+  pod 'Crashlytics', '~> 3.13.2'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Functions'
+  pod 'Firebase/AdMob'
+
+  # pod 'GoogleAppMeasurement', '~> 6.0.2'
+
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'React', path: '../node_modules/react-native', subspecs: [
+  # Comment out any unneeded subspecs to reduce bundle size.
+  'Core',
+  #'DevSupport',
+  'RCTActionSheet',
+  'RCTAnimation',
+  'RCTBlob',
+  'RCTCameraRoll',
+  'RCTGeolocation',
+  'RCTImage',
+  'RCTNetwork',
+  'RCTPushNotification',
+  'RCTSettings',
+  'RCTTest',
+  'RCTText',
+  'RCTVibration',
+  'RCTWebSocket',
+  'RCTLinkingIOS'
+  ]
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  # pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  
+  pod 'RNSVG', :path => '../node_modules/react-native-svg' 
+  pod 'RNLocalize', :path => '../node_modules/react-native-localize'
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'  
+
+  pod 'RNIap', :path => '../node_modules/react-native-iap'
+  
+  pod 'react-native-sms', :path => '../node_modules/react-native-sms'
+
+  pod 'react-native-keep-awake', :path => '../node_modules/react-native-keep-awake'
+end
+post_install do |installer|
+  # rnfirebase = installer.pods_project.targets.find { |target| target.name == 'RNFirebase' }
+  # rnfirebase.build_configurations.each do |config|
+  #   config.build_settings['HEADER_SEARCH_PATHS'] = '$(inherited) ${PODS_ROOT}/Headers/Public/**'
+  # end
+  installer.pods_project.targets.each do |target|
+    targets_to_ignore = %w(React yoga)
+    
+    if targets_to_ignore.include? target.name
+      target.remove_from_project
+    end
+
+    if target.name == "React"
+      target.remove_from_project
+    end
+  end
+end
+
